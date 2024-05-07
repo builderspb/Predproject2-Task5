@@ -15,7 +15,7 @@
     </tr>
     </thead>
     <tbody>
-    <!-- Используем Thymeleaf для отображения списка машин -->
+    <!-- Thymeleaf для отображения списка машин -->
     <tr th:each="car : ${cars}">
         <td th:text="${car.brand}">Brand</td>
         <td th:text="${car.model}">Model</td>
